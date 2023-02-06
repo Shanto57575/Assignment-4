@@ -10,4 +10,4 @@ function gemsToDiamond(firstNumber,secondNumber,thirdNumber){
      return totalDiamond;
 }
 
-console.log(gemsToDiamond(1,1,1));
+console.log(gemsToDiamond(100, 5, 1));

@@ -9,4 +9,4 @@ function evenOdd(numberString){
    return 'Even';
 }
 
- console.log(evenOdd("22222"));
+console.log(evenOdd("22222"));

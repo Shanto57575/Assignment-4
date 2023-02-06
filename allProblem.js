@@ -18,15 +18,16 @@ function evenOdd(numberString){
     if(stringSize%2)return 'Odd';
     return 'Even';
 }
+
 /*
-     problem : 3
-     This function takes a random number and returns absolute value
+  problem : 3
+  This function takes a random number and perform some operation with 7
 */
 function isLGSeven(randomNumber){
     if(typeof(randomNumber)!='number') return "You didn't Enter a number";
-    const answer = Math.abs(randomNumber-7);
-    if(answer<7) return randomNumber-7;
-    return answer*2;
+    const answer = randomNumber-7;
+    if(answer<7) return answer;
+    return randomNumber*2;
  }
  
 /*
