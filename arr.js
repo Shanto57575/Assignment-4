@@ -11,6 +11,5 @@ function findingBadData(numericArray){
    return badData;
 }
 
-
-let arr =  [ -4, -9, -5, -33, -55 ];
+let arr =  [ 4, 9, -5, -33, -55 ];
 console.log(findingBadData(arr));
